@@ -26,7 +26,7 @@ object CheckYourAnswersPage extends BasePage {
   val url: String = getPageURL("/check-answers")
 
   def clickChangeSoftwareName(): Unit =
-    clickLink("/find-making-tax-digital-income-tax-software/check-software?editMode=true")
+    clickLink("/find-making-tax-digital-income-tax-software/enter-software-name?editMode=true")
 
   def clickChangeUserType(): Unit =
     clickLink("/find-making-tax-digital-income-tax-software/about-you?editMode=true")
